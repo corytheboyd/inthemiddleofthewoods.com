@@ -1,6 +1,0 @@
-baseURL = 'https://www.inthemiddleofthewoods.com'
-languageCode = 'en-us'
-title = 'In the Middle of the Woods'
-
-[[module.imports]]
-path = "github.com/CaiJimmy/hugo-theme-stack/v3"

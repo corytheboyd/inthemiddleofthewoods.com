@@ -1,0 +1,58 @@
+baseURL: 'https://www.inthemiddleofthewoods.com'
+languageCode: 'en-us'
+title: 'In the Middle of the Woods'
+
+module:
+    imports:
+        - path: "github.com/CaiJimmy/hugo-theme-stack/v3"
+
+params:
+  mainSections:
+    - home
+
+  article:
+    toc: true
+    readingTime: false
+    license:
+      enabled: false
+
+  sidebar:
+    emoji: 🏔️
+    avatar:
+      enabled: true
+      local: true
+      src: img/avatar.png
+
+  comments:
+    enabled: false
+
+  colorScheme:
+    toggle: false
+    default: dark
+
+menu:
+    main:
+        - name: "Home"
+          url: "/"
+          weight: 10
+          identifier: "home"
+          params:
+              icon: "home"
+        - name: "Posts"
+          url: "/posts"
+          weight: 20
+          identifier: "posts"
+          params:
+              icon: "notification"
+        - name: "Pictures"
+          url: "/pictures"
+          weight: 20
+          identifier: "pictures"
+          params:
+              icon: "polaroid"
+        - name: "Stay with us"
+          url: "/stay"
+          weight: 30
+          identifier: "stay"
+          params:
+              icon: "home-edit"
