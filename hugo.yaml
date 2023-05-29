@@ -17,7 +17,6 @@ params:
       enabled: false
 
   sidebar:
-    emoji: 🏔️
     avatar:
       enabled: true
       local: true
