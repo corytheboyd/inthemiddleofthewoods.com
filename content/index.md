@@ -1,9 +1,9 @@
 ---
-title: Our house, in the middle of the woods
-image: welcome.jpg
+title: 632 Aspen Lane
+image: sky-house.jpg
 ---
 
-## What is this
+## What is the deal?
 
 As you may have heard, Cory and Jammie recently bought a house in the Colorado mountains, and have become crazy mountain people.
 

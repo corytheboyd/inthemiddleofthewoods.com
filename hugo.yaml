@@ -27,7 +27,7 @@ params:
 
   colorScheme:
     toggle: false
-    default: dark
+    default: auto
 
 menu:
     main:
